@@ -1,0 +1,14 @@
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\bin\Debug\net8.0\App.Data.deps.json
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\bin\Debug\net8.0\App.Data.dll
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\bin\Debug\net8.0\App.Data.pdb
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.csproj.AssemblyReference.cache
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.AssemblyInfoInputs.cache
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.AssemblyInfo.cs
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.csproj.CoreCompileInputs.cache
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.dll
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\refint\App.Data.dll
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.pdb
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\ref\App.Data.dll
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\bin\Debug\net8.0\App.Data.runtimeconfig.json
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.genruntimeconfig.cache
