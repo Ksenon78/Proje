@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB941D95-5B2A-4918-812F-2B310532041B}|App.Admin\\App.Admin.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB941D95-5B2A-4918-812F-2B310532041B}|App.Admin\\App.Admin.csproj|solutionrelative:app.admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\entities\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|solutionrelative:app.data\\entities\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\entities\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|solutionrelative:app.data\\entities\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\entities\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|solutionrelative:app.data\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\migrations\\20250526132002_adddescriptiontoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|solutionrelative:app.data\\migrations\\20250526132002_adddescriptiontoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\entities\\orderitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\views\\shared\\partials\\hamburger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\app.e-ticaret.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\app.e-ticaret.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -81,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\views\\shared\\partials\\hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\views\\shared\\partials\\hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB941D95-5B2A-4918-812F-2B310532041B}|App.Admin\\App.Admin.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB941D95-5B2A-4918-812F-2B310532041B}|App.Admin\\App.Admin.csproj|solutionrelative:app.admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C3691C-4E1F-4142-8E4F-C42AE8B5F18C}|App.Data\\App.Data.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.data\\entities\\productimageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -186,72 +182,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "App.E-Ticaret\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:46:52.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
-              "RelativeToolTip": "App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:49:42.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\AuthController.cs",
               "RelativeToolTip": "App.E-Ticaret\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T03:31:43.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "App.E-Ticaret\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:04:04.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "App.E-Ticaret\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T03:39:02.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Product\\Create.cshtml",
@@ -259,12 +203,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwDUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T02:00:43.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T02:00:43.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\_Layout.cshtml",
@@ -272,51 +215,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:09:39.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T15:09:39.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\OrderEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\OrderEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:00:30.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250526132002_AddDescriptionToProduct.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Migrations\\20250526132002_AddDescriptionToProduct.cs",
-              "RelativeDocumentMoniker": "App.Data\\Migrations\\20250526132002_AddDescriptionToProduct.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Migrations\\20250526132002_AddDescriptionToProduct.cs",
-              "RelativeToolTip": "App.Data\\Migrations\\20250526132002_AddDescriptionToProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:20:02.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderItemEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderItemEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\OrderItemEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderItemEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\OrderItemEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:34:49.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CategoryDto.cs",
               "RelativeDocumentMoniker": "App.Data\\Entities\\CategoryDto.cs",
@@ -329,150 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CartItemEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CartItemEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\CartItemEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CartItemEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\CartItemEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:34:42.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoleEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\RoleEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\RoleEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\RoleEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\RoleEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:13:17.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\ProductEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\ProductEntity.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:49:59.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CategoryEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\CategoryEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CategoryEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\CategoryEntity.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:27:16.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Hamburger.cshtml",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
-              "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T00:15:33.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "App.Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\AppDbContext.cs",
-              "RelativeToolTip": "App.Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA1wBgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:27:56.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductImageEntity.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductImageEntity.cs",
-              "RelativeDocumentMoniker": "App.Data\\Entities\\ProductImageEntity.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductImageEntity.cs",
-              "RelativeToolTip": "App.Data\\Entities\\ProductImageEntity.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:13:17.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Program.cs",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Program.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Program.cs",
-              "RelativeToolTip": "App.E-Ticaret\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:47:10.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.E-Ticaret",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\App.E-Ticaret.csproj",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\App.E-Ticaret.csproj",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\App.E-Ticaret.csproj",
-              "RelativeToolTip": "App.E-Ticaret\\App.E-Ticaret.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-26T13:19:29.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Hero.cshtml",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
-              "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T22:12:34.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "App.E-Ticaret\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "App.E-Ticaret\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:16:16.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "App.Admin\\Controllers\\HomeController.cs",
@@ -485,7 +245,213 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "App.E-Ticaret\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:46:52.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Program.cs",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Program.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Program.cs*",
+              "RelativeToolTip": "App.E-Ticaret\\Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T03:47:10.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "App.E-Ticaret\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T03:39:02.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "App.E-Ticaret\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:04:04.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "App.E-Ticaret\\Models\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:49:42.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\OrderEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\OrderEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:00:30.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderItemEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\OrderItemEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\OrderItemEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\OrderItemEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:34:49.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CartItemEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\CartItemEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CartItemEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\CartItemEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:34:42.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\RoleEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\RoleEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\RoleEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\RoleEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:13:17.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\ProductEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\ProductEntity.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:49:59.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CategoryEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\CategoryEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\CategoryEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\CategoryEntity.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:27:16.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Hamburger.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
+              "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Hamburger.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T00:15:33.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\AppDbContext.cs",
+              "RelativeToolTip": "App.Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA1wBgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:27:56.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductImageEntity.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductImageEntity.cs",
+              "RelativeDocumentMoniker": "App.Data\\Entities\\ProductImageEntity.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\ProductImageEntity.cs",
+              "RelativeToolTip": "App.Data\\Entities\\ProductImageEntity.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:13:17.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.E-Ticaret.csproj",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\App.E-Ticaret.csproj",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\App.E-Ticaret.csproj",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\App.E-Ticaret.csproj",
+              "RelativeToolTip": "App.E-Ticaret\\App.E-Ticaret.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-26T13:19:29.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Hero.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
+              "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Hero.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T22:12:34.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "App.E-Ticaret\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "App.E-Ticaret\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:16:16.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Home\\Index.cshtml",
@@ -493,12 +459,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:10:13.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T15:10:13.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Models\\ViewModels\\LoginViewModel.cs",
@@ -506,12 +471,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Models\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:41:08.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:41:08.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Header.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Header.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Header.cshtml",
@@ -519,12 +483,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Header.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:10:54.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T15:10:54.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Listing.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Home\\Listing.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Home\\Listing.cshtml",
@@ -532,12 +495,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Home\\Listing.cshtml",
               "ViewState": "AgIAALYBAAAAAAAAAIAwwAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:04:09.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T15:04:09.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\_ViewImports.cshtml",
@@ -545,12 +507,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T21:57:53.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T21:57:53.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\appsettings.json",
               "RelativeDocumentMoniker": "App.E-Ticaret\\appsettings.json",
@@ -558,12 +519,11 @@
               "RelativeToolTip": "App.E-Ticaret\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T00:18:10.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T00:18:10.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -571,12 +531,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T23:32:18.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T23:32:18.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Login.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Login.cshtml",
@@ -584,12 +543,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T00:18:55.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T00:18:55.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "App.Admin\\Views\\Home\\Index.cshtml",
@@ -597,12 +555,11 @@
               "RelativeToolTip": "App.Admin\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T01:33:18.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:18.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "App.Admin\\Views\\Home\\Privacy.cshtml",
@@ -610,12 +567,11 @@
               "RelativeToolTip": "App.Admin\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T01:33:19.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:19.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "App.Admin\\Views\\_ViewImports.cshtml",
@@ -623,12 +579,11 @@
               "RelativeToolTip": "App.Admin\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T01:33:21.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:21.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "App.Admin\\Views\\_ViewStart.cshtml",
@@ -636,12 +591,11 @@
               "RelativeToolTip": "App.Admin\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T01:33:21.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:21.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "App.Admin\\wwwroot\\css\\site.css",
@@ -649,12 +603,11 @@
               "RelativeToolTip": "App.Admin\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-26T01:33:25.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:25.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "App.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -662,12 +615,11 @@
               "RelativeToolTip": "App.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-26T01:33:31.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:31.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
               "RelativeDocumentMoniker": "App.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
@@ -675,12 +627,11 @@
               "RelativeToolTip": "App.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-26T01:33:32.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:32.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "Footer.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Partials\\Footer.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Partials\\Footer.cshtml",
@@ -688,12 +639,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Partials\\Footer.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T00:15:46.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T00:15:46.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.Data\\Entities\\UserEntity.cs",
               "RelativeDocumentMoniker": "App.Data\\Entities\\UserEntity.cs",
@@ -701,12 +651,11 @@
               "RelativeToolTip": "App.Data\\Entities\\UserEntity.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:06:37.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:06:37.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Properties\\launchSettings.json",
@@ -714,12 +663,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T21:57:57.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T21:57:57.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\_ViewStart.cshtml",
@@ -727,12 +675,11 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T23:32:10.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T23:32:10.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Views\\Shared\\Error.cshtml",
@@ -740,8 +687,7 @@
               "RelativeToolTip": "App.E-Ticaret\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T23:32:11.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T23:32:11.367Z"
             }
           ]
         }

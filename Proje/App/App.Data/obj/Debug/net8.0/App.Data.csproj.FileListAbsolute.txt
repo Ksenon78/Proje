@@ -12,3 +12,4 @@ C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.pdb
 C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\ref\App.Data.dll
 C:\Users\talha\Desktop\Proje\Proje\App\App.Data\bin\Debug\net8.0\App.Data.runtimeconfig.json
 C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.genruntimeconfig.cache
+C:\Users\talha\Desktop\Proje\Proje\App\App.Data\obj\Debug\net8.0\App.Data.sourcelink.json
