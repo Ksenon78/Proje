@@ -30,7 +30,8 @@ namespace App.Data.Entities
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        public int RoleId { get; set; }
+    
+        public int RoleId { get; set; } 
 
         
         public bool Enabled { get; set; } = true;

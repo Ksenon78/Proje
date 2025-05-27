@@ -42,7 +42,7 @@ namespace App.E_Ticaret.Controllers
                 return View(model);
 
             var existingUser = await _dbContext.Users
-                .FirstOrDefaultAsync(u => u.Email == model.Email);
+                .FirstOrDefaultAsync(u => u.Email.ToLower() == model.Email.ToLower());
 
             if (existingUser != null)
             {
@@ -50,14 +50,30 @@ namespace App.E_Ticaret.Controllers
                 return View(model);
             }
 
+            var adminEmail = "admin@hotmail.com";
+
+            var adminRole = await _dbContext.Roles.FirstOrDefaultAsync(r => r.Name == "Admin");
+            var buyerRole = await _dbContext.Roles.FirstOrDefaultAsync(r => r.Name == "Buyer");
+
+            if (adminRole == null || buyerRole == null)
+            {
+                ModelState.AddModelError("", "Gerekli roller veritabanında bulunamadı.");
+                return View(model);
+            }
+
+            // Rolü belirle
+            var roleIdToAssign = model.Email.ToLower() == adminEmail ? adminRole.Id : buyerRole.Id;
+
+       
+
             var newUser = new UserEntity
             {
                 Email = model.Email,
-                Password = model.Password, 
+                Password = model.Password,
                 FirstName = "FirstNamePlaceholder",
-                LastName = "LastNamePlaceholder",  
+                LastName = "LastNamePlaceholder",
                 CreatedAt = DateTime.UtcNow,
-                RoleId = 1, 
+                RoleId = roleIdToAssign,
                 Enabled = true
             };
 
@@ -81,7 +97,7 @@ namespace App.E_Ticaret.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            var user = await _dbContext.Users
+            var user = await _dbContext.Users.Include(x => x.Role)
                 .FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
 
             if (user == null)
@@ -90,10 +106,12 @@ namespace App.E_Ticaret.Controllers
                 return View(model);
             }
 
+
             var claims = new List<Claim>
     {
            new Claim(ClaimTypes.Name, user.Email),
-           new Claim("userId", user.Id.ToString())
+           new Claim("userId", user.Id.ToString()),
+          new Claim(ClaimTypes.Role, user.Role?.Name ?? "Buyer")
     };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -110,9 +128,12 @@ namespace App.E_Ticaret.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            await HttpContext.SignOutAsync("Cookie_Demo");
             return RedirectToAction("Login", "Auth");
         }
+
+
+
     }
 }
 

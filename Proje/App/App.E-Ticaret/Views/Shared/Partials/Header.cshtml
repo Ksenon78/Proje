@@ -29,14 +29,9 @@
                         </ul>
                     </div>
                         <div class="header__top__right__auth">
-                            <a asp-controller="Auth" asp-action="Login" class="nav-link">
-                                <i class="fa fa-user"></i> Login
-                            </a>
-                            <a asp-controller="Auth" asp-action="Register" class="nav-link register-link" style="position:relative; top:5px; left:10px;">
-                                <i class="fa fa-user-plus"></i> Register
-                            </a>
-                        
+                            @await Html.PartialAsync("Partials/Login")
                         </div>
+
 
 
                 </div>
