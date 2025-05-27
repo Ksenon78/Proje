@@ -1,7 +1,10 @@
 ﻿using App.Data;
+using App.Data.Settings;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace App.E_Ticaret.Controllers
@@ -37,6 +40,7 @@ namespace App.E_Ticaret.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login([FromForm] LoginViewModel model)
         {
             if (!ModelState.IsValid)
@@ -44,13 +48,14 @@ namespace App.E_Ticaret.Controllers
                 return View(model);
             }
 
-            var user = await _dbContext.Users
-                .FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
+            var user = UserManager.Login(model.Email, model.Password);
 
             if (user != null)
             {
-                HttpContext.Session.SetString("UserEmail", user.Email);
+                var identity = new ClaimsIdentity(user.Claims, Settings.AuthCookieName);
+                var principal = new ClaimsPrincipal(identity);
 
+                await HttpContext.SignInAsync(Settings.AuthCookieName, principal);
 
                 return RedirectToAction("Index", "Home");
             }

@@ -5,6 +5,36 @@
 
 }
 
+<h1>Cookie Authentication</h1>
+
+<p>Currently, the user is <strong>@(User.Identity?.Name ?? "Anonymous")</strong>.</p>
+
+@if (User.Identity?.IsAuthenticated ?? false)
+{
+    <p class="text-success">They are authenticated!</p>
+}
+else
+{
+    <p class="text-danger">They are <strong>not</strong> authenticated!</p>
+}
+
+<h2>Claims</h2>
+
+@if (User.Claims.Any())
+{
+    <ul>
+        @foreach (var claim in User.Claims)
+        {
+            <li><strong>@claim.Type:</strong> @claim.Value</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No claims found!</p>
+}
+
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-md-6 offset-md-4 position-relative" style="top: -500px;">

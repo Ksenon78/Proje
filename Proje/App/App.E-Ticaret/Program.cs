@@ -1,4 +1,6 @@
 using App.Data; // DbContext'in namespace'i
+using App.Data.Settings;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -11,16 +13,33 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Sadece HTTPS üzerinden çerez gönder
-    options.Cookie.SameSite = SameSiteMode.None; // Cross-site eriþime izin ver
-});
 
+builder.Services.AddAuthentication().AddCookie(Settings.AuthCookieName, 
+    options =>
+    {
+        options.LoginPath = "/Auth/Login";
+        options.AccessDeniedPath = "/Auth/Forbidden";
+        options.Cookie.Name = Settings.AuthCookieName;
 
+        options.Cookie.HttpOnly = true; // Çerezlerin sadece HTTP istekleriyle eriþilmesini saðla
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Çerezler yalnýzca HTTPS üzerinden gönderilsin
+        options.Cookie.SameSite = SameSiteMode.None; // Üst domainler arasý kullanýlabilir olsun
+        options.Cookie.IsEssential = true; // Kimlik doðrulama için gerekli olduðunu belirle
+    });
 
 // 2. Identity servisini ekle
+  builder.Services.AddAuthorization(options  =>
 
+  {
+      options.AddPolicy("Admin", policy => policy.RequireClaim("admin", "true"));
+  });
+
+
+builder.Services.AddAntiforgery(options =>
+{
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    options.Cookie.SameSite = SameSiteMode.Lax;
+});
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
@@ -32,6 +51,12 @@ using (var scope = app.Services.CreateScope())
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await dbContext.Database.EnsureCreatedAsync();
 }
+
+app.UseCookiePolicy(new CookiePolicyOptions
+{
+    MinimumSameSitePolicy = SameSiteMode.None,
+    Secure = CookieSecurePolicy.Always
+});
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -41,11 +66,14 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
-app.UseSession();
-// 3. Authentication ve Authorization middleware'lerini sýrayla ekle
+
+app.UseCookiePolicy(); // burasý routing'den sonra ama authentication'dan önce
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
