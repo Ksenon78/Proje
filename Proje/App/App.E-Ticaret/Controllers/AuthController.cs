@@ -50,7 +50,7 @@ namespace App.E_Ticaret.Controllers
                 return View(model);
             }
 
-            var adminEmail = "admin@hotmail.com";
+            var adminEmail = "admin@example.com";
 
             var adminRole = await _dbContext.Roles.FirstOrDefaultAsync(r => r.Name == "Admin");
             var buyerRole = await _dbContext.Roles.FirstOrDefaultAsync(r => r.Name == "Buyer");
@@ -63,8 +63,6 @@ namespace App.E_Ticaret.Controllers
 
             // Rolü belirle
             var roleIdToAssign = model.Email.ToLower() == adminEmail ? adminRole.Id : buyerRole.Id;
-
-       
 
             var newUser = new UserEntity
             {
@@ -107,12 +105,13 @@ namespace App.E_Ticaret.Controllers
             }
 
 
-            var claims = new List<Claim>
-    {
+             var claims = new List<Claim>
+            {
            new Claim(ClaimTypes.Name, user.Email),
            new Claim("userId", user.Id.ToString()),
-          new Claim(ClaimTypes.Role, user.Role?.Name ?? "Buyer")
-    };
+          new Claim(ClaimTypes.Role, user.Role?.Name ?? "Buyer"),
+          new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+             };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);

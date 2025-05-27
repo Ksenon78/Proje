@@ -17,9 +17,11 @@ namespace App.E_Ticaret.Controllers
         {
             _dbContext = dbContext;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var products = await _dbContext.Products.Include(p => p.Images).ToListAsync();
+
+            return View(products);
         }
 
         public IActionResult Create()
@@ -62,7 +64,18 @@ namespace App.E_Ticaret.Controllers
             _dbContext.Product.Add(product);
             await _dbContext.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
+
+        public async Task<IActionResult> Listing()
+        {
+            var products = await _dbContext.Products
+                .Include(p => p.Images)
+                .Include(p => p.Category)
+                .ToListAsync();
+
+            return View(products);
+        }
+
     }
 }
