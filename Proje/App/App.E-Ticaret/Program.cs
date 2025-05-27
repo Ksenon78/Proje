@@ -21,7 +21,6 @@ builder.Services.AddAuthentication().AddCookie(Settings.AuthCookieName,
         options.AccessDeniedPath = "/Auth/Forbidden";
         options.Cookie.Name = Settings.AuthCookieName;
 
-        options.Cookie.HttpOnly = true; // Çerezlerin sadece HTTP istekleriyle eriþilmesini saðla
         options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Çerezler yalnýzca HTTPS üzerinden gönderilsin
         options.Cookie.SameSite = SameSiteMode.None; // Üst domainler arasý kullanýlabilir olsun
         options.Cookie.IsEssential = true; // Kimlik doðrulama için gerekli olduðunu belirle

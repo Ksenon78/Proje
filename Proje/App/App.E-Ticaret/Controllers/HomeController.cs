@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using App.E_Ticaret.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.E_Ticaret.Controllers
@@ -14,6 +15,12 @@ namespace App.E_Ticaret.Controllers
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult UsersOnly()
         {
             return View();
         }

@@ -24,12 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/talha/Desktop/Proje/Proje/App/App.E-Ticaret/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/talha/Desktop/Proje/Proje/App/App.E-Ticaret/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/talha/Desktop/Proje/Proje/App/App.E-Ticaret/Views/Home/Listing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/talha/Desktop/Proje/Proje/App/App.E-Ticaret/Views/Home/UsersOnly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vyc09ubHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/talha/Desktop/Proje/Proje/App/App.E-Ticaret/Views/Product/Create.cshtml]
