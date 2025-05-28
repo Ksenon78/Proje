@@ -1,0 +1,10 @@
+﻿@model App.Data.Entities.ProductEntity
+
+<h1>@Model.Name</h1>
+<p>@Model.Description</p>
+
+<form method="post" asp-controller="Cart" asp-action="AddToCart">
+    <input type="hidden" name="productId" value="@Model.Id" />
+    <input type="number" name="quantity" value="1" min="1" />
+    <button type="submit">Sepete Ekle</button>
+</form>

@@ -61,7 +61,6 @@ namespace App.E_Ticaret.Controllers
                 return View(model);
             }
 
-            // Rolü belirle
             var roleIdToAssign = model.Email.ToLower() == adminEmail ? adminRole.Id : buyerRole.Id;
 
             var newUser = new UserEntity

@@ -44,7 +44,8 @@ namespace App.Data.Entities
 
         public ICollection<OrderEntity> UserOrders { get; set; } = new List<OrderEntity>();
 
-    
+        
+        public ICollection<CartItemEntity> ProductCartItems { get; set; }
             
         [ForeignKey("RoleId")]
         public RoleEntity Role { get; set; }

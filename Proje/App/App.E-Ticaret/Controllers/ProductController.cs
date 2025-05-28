@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.E_Ticaret.Controllers
 {
+    [Authorize]
+
     public class ProductController : Controller
     {
         private readonly AppDbContext _dbContext;
@@ -48,7 +50,7 @@ namespace App.E_Ticaret.Controllers
             if (userIdClaim == null)
                 return Unauthorized();
 
-            var sellerId = int.Parse(userIdClaim.Value);
+            var sellerId = GetUserId();
 
             var product = new ProductEntity
             {
@@ -77,5 +79,20 @@ namespace App.E_Ticaret.Controllers
             return View(products);
         }
 
+        private int GetUserId()
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+            {
+                throw new Exception("Kullanıcının bu işlem için yetkisi yok");
+            }
+
+            return int.Parse(userIdClaim.Value);
+        }
+
     }
 }
+
+
+
+

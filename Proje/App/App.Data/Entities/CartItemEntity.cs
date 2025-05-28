@@ -27,7 +27,16 @@ namespace App.Data.Entities
 
         [ForeignKey(nameof(ProductId))]
         public int ProductId { get; set; }
+
+
         public ProductEntity Product { get; set; } 
+        
+        public int CartId { get; set; }
+        [ForeignKey(nameof(CartId))]
+        public CartEntity Cart { get; set; }
+
+
+
     }
 
     public class CartItemEntityConfiguration : IEntityTypeConfiguration<CartItemEntity>
@@ -35,8 +44,9 @@ namespace App.Data.Entities
         public void Configure(EntityTypeBuilder<CartItemEntity> builder)
         {
             builder.HasKey(p => p.Id);
-            builder.Property(nameof(CartItemEntity.Quantity)).HasMaxLength(100).IsRequired();
+            builder.Property(nameof(CartItemEntity.Quantity)).IsRequired();
             builder.Property(nameof(CartItemEntity.CreatedAt)).IsRequired();
+            builder.HasOne(c => c.Cart).WithMany(c => c.ProductCartItems).OnDelete(DeleteBehavior.NoAction);
             builder.HasOne(u => u.User).WithMany(u => u.UserCartItems).HasForeignKey(u => u.UserId).OnDelete(DeleteBehavior.NoAction);
             builder.HasOne(p => p.Product).WithMany(p => p.ProductCartItems).HasForeignKey(p => p.ProductId).OnDelete(DeleteBehavior.NoAction);
         }

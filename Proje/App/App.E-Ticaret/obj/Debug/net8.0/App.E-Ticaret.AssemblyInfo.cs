@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.E-Ticaret")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec2b30e9af321e6bbb5e36ee2ba7f1f4437a0db5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd43e41539473f4174f0b91e3b5278372c5fe4c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.E-Ticaret")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.E-Ticaret")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -41,9 +41,10 @@ namespace App.Data.Entities
         [ForeignKey(nameof(CategoryId))]
         public CategoryEntity Category { get; set; }
 
+
     }
 
-        public class ProductEntityConfiguration:IEntityTypeConfiguration<ProductEntity>
+    public class ProductEntityConfiguration:IEntityTypeConfiguration<ProductEntity>
         {
           public void Configure(EntityTypeBuilder<ProductEntity> builder)
           {
@@ -53,6 +54,7 @@ namespace App.Data.Entities
             builder.Property(nameof(ProductEntity.Price)).IsRequired();
             builder.Property(nameof(ProductEntity.Description)).IsRequired();
             builder.Property(nameof(ProductEntity.Details)).IsRequired().HasMaxLength(100);
+
             builder.Property(nameof(ProductEntity.CreatedAt)).IsRequired();
             builder.Property(nameof(ProductEntity.Enabled)).IsRequired().HasDefaultValue(true);
             //No action koymamızın sebebi bir kullanıcı(bu senaryoda bir satıcı) silindiğinde ona bağlı ürünlerin
