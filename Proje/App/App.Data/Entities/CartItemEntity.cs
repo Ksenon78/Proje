@@ -29,11 +29,11 @@ namespace App.Data.Entities
         public int ProductId { get; set; }
 
 
-        public ProductEntity Product { get; set; } 
-        
-        public int CartId { get; set; }
-        [ForeignKey(nameof(CartId))]
-        public CartEntity Cart { get; set; }
+        public ProductEntity Product { get; set; }
+
+        // public int CartId { get; set; }
+        //[ForeignKey(nameof(CartId))]
+        //public CartEntity Cart { get; set; }
 
 
 
@@ -46,7 +46,7 @@ namespace App.Data.Entities
             builder.HasKey(p => p.Id);
             builder.Property(nameof(CartItemEntity.Quantity)).IsRequired();
             builder.Property(nameof(CartItemEntity.CreatedAt)).IsRequired();
-            builder.HasOne(c => c.Cart).WithMany(c => c.ProductCartItems).OnDelete(DeleteBehavior.NoAction);
+           // builder.HasOne(c => c.Cart).WithMany(c => c.ProductCartItems).OnDelete(DeleteBehavior.NoAction);
             builder.HasOne(u => u.User).WithMany(u => u.UserCartItems).HasForeignKey(u => u.UserId).OnDelete(DeleteBehavior.NoAction);
             builder.HasOne(p => p.Product).WithMany(p => p.ProductCartItems).HasForeignKey(p => p.ProductId).OnDelete(DeleteBehavior.NoAction);
         }

@@ -1,5 +1,65 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<App.Data.Entities.CartItemEntity>
+
 @{
+    ViewData["Title"] = "Sepetim";
 }
+
+<div class="product-grid">
+    <div class="col-12 col-md-6 offset-md-4 position-relative" style="top: -500px;">
+        <h2 class="text-center">Sepetim</h2>
+
+        @if (!Model.Any())
+        {
+            <p>Sepetiniz boş.</p>
+        }
+        else
+        {
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Ürün</th>
+                        <th>Fiyat</th>
+                        <th>Adet</th>
+                        <th>Toplam</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Product?.Name</td>
+                            <td>
+                                @(
+                                    (item.Product?.Price ?? 0m)
+                                    .ToString("C")
+                                    )
+                            </td>
+                            <td>@item.Quantity</td>
+                            <td>
+                                @(
+                                    ((item.Product?.Price ?? 0m) * item.Quantity)
+                                    .ToString("C")
+                                    )
+                            </td>
+                            <td>
+                                <form asp-action="RemoveFromCart" method="post">
+                                    <input type="hidden" name="cartItemId" value="@item.Id" />
+                                    <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+<style>
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+</style>

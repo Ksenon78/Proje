@@ -61,6 +61,10 @@ namespace App.E_Ticaret.Controllers
                 StockAmount = model.StockAmount,
                 CategoryId = model.CategoryId,
                 SellerId = sellerId,
+
+                Enabled = true,
+                CreatedAt = DateTime.UtcNow
+
             };
 
             _dbContext.Product.Add(product);
