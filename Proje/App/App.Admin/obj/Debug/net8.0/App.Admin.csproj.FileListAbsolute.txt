@@ -75,3 +75,5 @@ C:\Users\talha\Desktop\Proje\Proje\App\App.Admin\obj\Debug\net8.0\App.Admin.pdb
 C:\Users\talha\Desktop\Proje\Proje\App\App.Admin\obj\Debug\net8.0\App.Admin.genruntimeconfig.cache
 C:\Users\talha\Desktop\Proje\Proje\App\App.Admin\obj\Debug\net8.0\ref\App.Admin.dll
 C:\Users\talha\Desktop\Proje\Proje\App\App.Admin\obj\Debug\net8.0\App.Admin.sourcelink.json
+C:\Users\talha\Desktop\Proje\Proje\App\App.Admin\bin\Debug\net8.0\App.Data.dll
+C:\Users\talha\Desktop\Proje\Proje\App\App.Admin\bin\Debug\net8.0\App.Data.pdb

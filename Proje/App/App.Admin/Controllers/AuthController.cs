@@ -1,8 +1,10 @@
 ﻿using App.Admin.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.Admin.Controllers
 {
+
     public class AuthController : Controller
     {
         [Route("/login")]

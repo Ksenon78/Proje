@@ -4,7 +4,6 @@
     ViewData["Title"] = "Ürünleri Sepete Ekle";
 }
 
-
 <div class="product-grid">
     <div class="col-12 col-md-6 offset-md-4 position-relative" style="top: -500px;">
         <h2 class="text-center">Ürün Listesi</h2>
@@ -18,8 +17,7 @@
                              class="card-img-top" style="height:200px; object-fit:cover;" />
                         <div class="card-body">
                             <h5 class="card-title">@product.Name</h5>
-                            <p class="card-text">@product.Price.ToString("C")</p>
-
+                            <p class="card-text">@($"{product.Price:C}")</p>
                             <form asp-controller="Cart" asp-action="AddToCart" method="post">
                                 <input type="hidden" name="productId" value="@product.Id" />
                                 <input type="number" name="quantity" value="1" min="1"

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<App.Data.Entities.UserEntity>
+
+@{
+    ViewData["Title"] = "Kullanıcılar";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Kullanıcı Listesi</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Ad Soyad</th>
+                <th>Rol</th>
+                <th>Satıcı Onayı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <td>@u.Email</td>
+                    <td>@($"{u.FirstName} {u.LastName}")</td>
+                    <td>@(u.Role?.Name ?? "—")</td>
+                    <td>
+                        @if (u.Role?.Name != "Seller")
+                        {
+                            <form asp-controller="User" asp-action="Approve" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@u.Id" />
+                                <button type="submit" class="btn btn-success btn-sm">
+                                    Satıcı Yap
+                                </button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Satıcı</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
