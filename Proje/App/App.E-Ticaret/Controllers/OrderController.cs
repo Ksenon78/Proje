@@ -25,7 +25,7 @@ namespace App.E_Ticaret.Controllers
             int? userId = GetUserId();
             if (userId == null)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Auth");
             }
 
             var cartItems = await _dbContext.CartItems.Include(c => c.Product).Where(c => c.UserId == userId).ToListAsync();
@@ -48,7 +48,7 @@ namespace App.E_Ticaret.Controllers
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
             if (userIdClaim == null)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Auth");
             }
 
 
@@ -101,7 +101,7 @@ namespace App.E_Ticaret.Controllers
 
             if(userId == null)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Auth");
             }
 
             var order = await _dbContext.Orders.Include(o => o.OrderItems).

@@ -21,7 +21,7 @@ namespace App.E_Ticaret.Controllers
 
             if (userId == null)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Auth");
             }
 
             var cartItems = await _dbContext.CartItems
@@ -36,11 +36,18 @@ namespace App.E_Ticaret.Controllers
         [HttpGet]
         public async Task<IActionResult> AddToCart()
         {
+            int? userId = GetUserId();
+
             var products = await _dbContext.Products
                 .Include(p => p.Images)
                 .Include(p => p.Category)
                 .ToListAsync();
 
+
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
             return View(products);  
         }
 
@@ -51,7 +58,7 @@ namespace App.E_Ticaret.Controllers
 
             if (userId == null)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Auth");
             }
 
             var product = await _dbContext.Products.FindAsync(productId);
