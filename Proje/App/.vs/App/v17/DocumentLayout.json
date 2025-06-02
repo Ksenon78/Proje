@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|solutionrelative:app.e-ticaret\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C052D28A-FE4A-42CE-A862-DB5E340145E0}|App.E-Ticaret\\App.E-Ticaret.csproj|c:\\users\\talha\\desktop\\proje\\proje\\app\\app.e-ticaret\\views\\cart\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -334,11 +334,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 496,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\AuthController.cs",
@@ -346,25 +346,23 @@
               "RelativeToolTip": "App.E-Ticaret\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAmwA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:31:43.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:31:43.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\HomeController.cs",
               "RelativeToolTip": "App.E-Ticaret\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:04:04.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T15:04:04.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\OrderController.cs",
@@ -372,8 +370,7 @@
               "RelativeToolTip": "App.E-Ticaret\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:56:00.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T13:56:00.966Z"
             },
             {
               "$type": "Document",
@@ -389,26 +386,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\ProductController.cs",
               "RelativeToolTip": "App.E-Ticaret\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:46:52.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:46:52.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "App.E-Ticaret\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\talha\\Desktop\\Proje\\Proje\\App\\App.E-Ticaret\\Controllers\\CartController.cs",
               "RelativeToolTip": "App.E-Ticaret\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T02:51:29.53Z",
               "EditorCaption": ""
