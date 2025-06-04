@@ -1,14 +1,13 @@
-﻿@model App.Data.Entities.OrderEntity
+﻿@model App.E_Ticaret.Models.ViewModels.OrderCreateViewModel
+
 @{
     ViewData["Title"] = "Sipariş Oluştur";
-    var cartItems = ViewData["CartItems"] as List<App.Data.Entities.CartItemEntity>;
 }
 
 <div class="col-12 col-md-6 offset-md-4 position-relative" style="top: -500px;">
     <h2 class="text-center">Sipariş Oluştur</h2>
 
     <form asp-action="Create" method="post">
-
         <div class="mb-3">
             <label asp-for="Address" class="form-label">Adres</label>
             <textarea asp-for="Address" class="form-control"></textarea>
@@ -26,7 +25,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var ci in cartItems)
+                @foreach (var ci in Model.CartItems)
                 {
                     <tr>
                         <td>@ci.Product.Name</td>
@@ -39,7 +38,7 @@
             <tfoot>
                 <tr>
                     <th colspan="3" class="text-end">Genel Toplam:</th>
-                    <th>@cartItems.Sum(ci => ci.Product.Price * ci.Quantity).ToString("C")</th>
+                    <th>@Model.CartItems.Sum(ci => ci.Product.Price * ci.Quantity).ToString("C")</th>
                 </tr>
             </tfoot>
         </table>
@@ -47,3 +46,7 @@
         <button type="submit" class="btn btn-primary">Siparişi Onayla</button>
     </form>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

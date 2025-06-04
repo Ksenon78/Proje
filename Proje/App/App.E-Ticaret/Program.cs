@@ -1,4 +1,5 @@
 using App.Data; // DbContext'in namespace'i
+using App.Data.Repositories;
 using App.Data.Settings;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -39,6 +40,8 @@ builder.Services.AddAntiforgery(options =>
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
     options.Cookie.SameSite = SameSiteMode.Lax;
 });
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(DataRepository<>));
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
